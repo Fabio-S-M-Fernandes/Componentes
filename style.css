@@ -1,0 +1,61 @@
+/* Configuração Geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #2c3e50;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Layout em Duas Colunas */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+/* Lista do Fluxo (Log) */
+.log-item {
+    background-color: #eef2f7;
+    border-left: 4px solid #3498db;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Lista de Conteúdo */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    padding: 4px 0;
+}
